@@ -1,0 +1,6 @@
+double HorasTrabalhadasMes = Console.ReadLine();
+decimal SalarioHora = Console.ReadLine();
+if (HorasTrabalhadasMes > 160)
+  double HoraExtra = HorasTrabalhadasMes - 160;
+  decimal SalarioTotal = ((SalarioHora * 50) /100) * HoraExtra;
+  Console.Write("Salario total: " + SalarioTotal);
